@@ -1,0 +1,134 @@
+body{
+	padding: 0;
+	margin: 0;
+	background: url(../img/1.jpg) no-repeat center center fixed;
+	padding: 30px; 
+}
+@font-face {
+    font-family: myFont;
+    src:url('../fonts/书法.ttf');
+}
+h1{
+	text-align: left;
+	color: darkturquoise;
+	font-family: myFont;
+	font-size: 60px;
+}
+p{
+	font-size: 40px;
+	font-family: myFont;
+}
+.user{
+	margin-top: 20px;
+	color: darkturquoise;
+	font-size: 40px;
+	font-family: myFont;
+	display: block;
+	text-align: center;
+	line-height: 100px;
+}
+.canvas{
+	background: rgba(255,255,155,0); 
+	position: absolute; 
+	z-index: -1;
+}
+.input{
+	color: #00CED1;
+	width: 200px;
+	height: 25px;
+	border: 1px solid rgba(255,255,255,0.7);
+	border-radius: 5px;
+	background: rgba(255,255,255,0.5);
+	padding: 5px;
+	line-height: 15px;
+	box-shadow: 0 0 3px #00CED1;
+}
+::-webkit-input-placeholder{
+	color: #fff;
+}
+.submit{
+	display: block;
+	margin-top: 20px;
+	width: 100px;
+	height: 40px;
+	font-size: 20px;
+	font-family: myFont;
+	border: 1px solid rgba(255,255,255,0.7);
+	border-radius: 5px;
+	margin-left: 48%;
+	background-color: darkturquoise;
+}
+input:focus{
+	background: rgba(0,0,0,0.2);
+	box-shadow: 0 0 5px 1px,rgba(255,255,255,0.5);
+	overflow: hidden;
+	color: #00CED1;
+}
+.checkbox{
+	color: darkturquoise;
+	font-size: 30px;
+	font-family: myFont;
+	display: block;
+	text-align: center;
+	line-height: 100px;
+	margin-top: 20px;
+}
+.submit:hover {
+    border: 1px solid #253737;
+    text-shadow: 0 1px 0 #333333;
+    background: #00B0DC;
+    color: #fff;
+}
+a:hover{
+	color: #fff;
+}
+.big{
+	display: block;
+	border: 2px solid #cccccc;
+	border-radius: 10px;
+	width: 580px;
+	height: 1050px;
+	background: rgba(0,0,0,0.3);
+	float: right;
+}
+.radio{
+	font-family: myFont;
+}
+button.submit:hover{
+	opacity: 85;
+	cursor: pointer;
+}
+.sex{
+	margin-top: 20px;
+	color: darkturquoise;
+	font-size: 40px;
+	font-family: myFont;
+	display: block;
+	text-align: center;
+	line-height: 100px;
+}
+.user input:focus:invalid,.user textarea:focus:invalid{
+	background: rgba(0,0,0,0.5) url(../img/2.png) no-repeat 98% center;
+}
+.user input:required:valid,.user textarea:required:valid{
+	background: rgba(255,255,255,0.1) url(../img/3.png) no-repeat 98% ;
+}
+.age{
+	display: block;
+	margin-top: 10px;
+	color: darkturquoise;
+	font-size: 40px;
+	font-family: myFont;
+	display: block;
+	text-align: center;
+	line-height: 100px;
+}
+.hobbies{
+	font-size: 30px;
+}
+.age input:required:valid,.age textarea:required:valid{
+	background: rgba(255,255,255,0.1) url(../img/3.png) no-repeat 85% center;
+}
+.age input:focus:invalid,.age textarea:focus:invalid{
+	background: rgba(255,255,255,0.1) url(../img/2.png) no-repeat 85% center;
+}
