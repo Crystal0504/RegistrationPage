@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>欢迎加入我们</title>
+		<link href="css/register.css" rel="stylesheet" type="text/css" />
+	</head>
+	<script src="js/jquery-2.1.0.js" type="text/javascript"></script>
+	<script type="text/javascript" src="js/lz.js"></script>
+
+	<body>
+		<canvas class="canvas"></canvas>
+		<h1>欢迎加入我们</h1>
+		<div class="big">
+			<form method="post">
+				<div class="user">
+					<span>账号:</span><input type="text" name="name" placeholder="请输入用户名" class="input" required="required"/>
+		</div>
+		<div class="user">
+	    	<span>密码:</span><input type="password" name="password" placeholder="请输入密码" class="input" required="required" />
+				</div>
+				<div class="user">
+					<span>邮箱:</span><input type="email" name="password" placeholder="请输入邮箱" class="input" required="required" />
+				</div>
+				<div class="age">
+					<span>年龄:</span><input type="number" name="age" class="input" required="required" onkeyup="value=value.replace(/[^\d]/g,'')" placeholder="请输入年龄" max="99" min="0" />
+				</div>
+				<div class="sex">
+					<span>性别:</span><input me type="radio" name="sex" checked id="mela" /><label for="mela">男</label>
+					<input me type="radio" name="sex" id="femela" /><label for="femela">女</label>
+				</div>
+				<div class="user">
+					<span>兴趣爱好:</span><input type="checkbox" id="PE" name="hobbies" />
+					<label for="PE" class="hobbies">体育</label>
+					<input type="checkbox" id="games" name="hobbies" />
+					<label for="games" class="hobbies">游戏</label>
+					<input type="checkbox" id="comics" name="hobbies" />
+					<label for="comics" class="hobbies">二次元</label>
+					<input type="checkbox" id="news" name="hobbies" />
+					<label for="news" class="hobbies">新闻</label>
+					<input type="checkbox" id="military" name="hobbies" />
+					<label for="military" class="hobbies">军事</label>
+					<input type="checkbox" id="car" name="hobbies" />
+					<label for="car" class="hobbies">汽车</label>
+				</div>
+				<div class="checkbox">
+					<input type="checkbox" id="allow" /><label for="allow">同意
+					<a href="#">注册条约</a></label>
+				</div>
+				<button type="submit" class="submit">立即注册</button>
+			</form>
+		</div>
+
+	</body>
+
+</html>
