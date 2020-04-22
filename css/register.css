@@ -2,7 +2,9 @@ body{
 	padding: 0;
 	margin: 0;
 	background: url(../img/1.jpg) no-repeat center center fixed;
-	padding: 30px; 
+	/* padding: 30px;  */
+	overflow-x: hidden;
+	overflow-y: scroll;
 }
 @font-face {
     font-family: myFont;
@@ -13,6 +15,7 @@ h1{
 	color: darkturquoise;
 	font-family: myFont;
 	font-size: 60px;
+	margin-left: 30px;
 }
 p{
 	font-size: 40px;
@@ -79,6 +82,9 @@ input:focus{
     background: #00B0DC;
     color: #fff;
 }
+a{
+	transition: all 0.5s ease;
+}
 a:hover{
 	color: #fff;
 }
@@ -90,9 +96,13 @@ a:hover{
 	height: 1050px;
 	background: rgba(0,0,0,0.3);
 	float: right;
+	margin-right: 20px;
 }
 .radio{
 	font-family: myFont;
+}
+button.submit{
+	transition: all 0.5s ease;
 }
 button.submit:hover{
 	opacity: 85;
